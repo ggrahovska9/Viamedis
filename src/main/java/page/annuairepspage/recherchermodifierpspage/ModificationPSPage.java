@@ -1,4 +1,4 @@
-package page;
+package page.annuairepspage.recherchermodifierpspage;
 
 import config.BasePage;
 import org.openqa.selenium.By;
@@ -46,6 +46,8 @@ public class ModificationPSPage {
     }
 
     public void typeTodayDate() {
+        basePage.acceptAlert();
+
         basePage.fillField(dayField, LocalDate.now().format(DateTimeFormatter.ofPattern("dd")));
         basePage.fillField(monthField, LocalDate.now().format(DateTimeFormatter.ofPattern("MM")));
         basePage.fillField(yearField, String.valueOf(LocalDate.now().getYear()));

@@ -1,5 +1,7 @@
+package viamedis;
+
 import config.BaseTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import page.HomePage;
 import page.LoginPage;
@@ -21,7 +23,7 @@ public class AnnuairePSTest extends BaseTest {
     private final ResultatRechercheRIBPage resultatRechercheRIBPage = new ResultatRechercheRIBPage();
     private final ModificationPSPage modificationPSPage = new ModificationPSPage();
 
-    @BeforeTest
+    @BeforeMethod
     public void before() {
         loginPage.doSuccessfulLogin("e.aleksandrova@tinqin.com", "Test123!");
         homePage.clickAnnuairePSButton();

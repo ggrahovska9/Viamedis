@@ -1,6 +1,6 @@
 package enums;
 
-public enum AnnuairePSSousMenuBtns {
+public enum SousMenuBtns {
 
     // Annuaire PS Page
     RECHERCHER_MODIFIER_PS("Rechercher/Modifier PS"),
@@ -9,11 +9,15 @@ public enum AnnuairePSSousMenuBtns {
     CARTOGRAPHIE("Cartographie"),
     RECHERCHE_PAR_RIB("Recherche par RIB"),
     EVENEMENTS_PS("Événements PS"),
-    REFERENCEMENT_PS("Référencement PS");
+    REFERENCEMENT_PS("Référencement PS"),
+
+    // Tiers Creancier Page
+    RECHERCHER_MODIFIER_TC("Rechercher/Modifier TC"),
+    CREATION_D_UN_TC("Création d'un TC");
 
     private final String buttonName;
 
-    AnnuairePSSousMenuBtns(String buttonName) {
+    SousMenuBtns(String buttonName) {
         this.buttonName = buttonName;
     }
 

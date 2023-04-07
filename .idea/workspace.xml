@@ -1,11 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d611b46-e216-42ab-be10-16c05e67b8f7" name="Changes" comment="" />
+    <list default="true" id="0d611b46-e216-42ab-be10-16c05e67b8f7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/AcceptanceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/AcceptanceHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/WebDriverProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/WebDriverProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/SousMenuBtns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/SousMenuBtns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/Waits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/AnnuairePSPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/AnnuairePSPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/ModificationPSPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/ModificationPSPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/RechercherModifierPSPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/RechercherModifierPSPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/ResultatRecherchePSPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/ResultatRecherchePSPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/rechercherparrib/RechercheParRIBPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/rechercherparrib/RechercheParRIBPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/rechercherparrib/ResultatRechercheRIBPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/rechercherparrib/ResultatRechercheRIBPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/tierscreancier/TiersCreancierPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/tierscreancier/TiersCreancierPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/tierscreancier/recherchermodifiertc/RechercherModiferTCPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/tierscreancier/recherchermodifiertc/RechercherModiferTCPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/tierscreancier/recherchermodifiertc/ResultatTiersCreanciersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/tierscreancier/recherchermodifiertc/ResultatTiersCreanciersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/CaptureScreenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/CaptureScreenshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/viamedis/AnnuairePSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/viamedis/AnnuairePSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/viamedis/TiersCreancierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/viamedis/TiersCreancierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2O17aGt0R3E1gL37v02MelNvU6I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -15,10 +59,206 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/g.grahovska/Downloads/testng-7.4.0.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.5229885",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\g.grahovska\IdeaProjects\Viamedis\driver" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.viamedis">
+    <configuration name="All Tests" type="TestNG">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnuairePSTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Viamedis" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="viamedis" />
+      <option name="MAIN_CLASS_NAME" value="viamedis.AnnuairePSTest" />
+      <option name="METHOD_NAME" value="TNR_CT02_RechercherPSParRIBTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnuairePSTest.TNR_CT01_RechercherPSParNumeroTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Viamedis" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="viamedis" />
+      <option name="MAIN_CLASS_NAME" value="viamedis.AnnuairePSTest" />
+      <option name="METHOD_NAME" value="TNR_CT01_RechercherPSParNumeroTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnuairePSTest.TNR_CT06_ModifierPSTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Viamedis" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="viamedis.AnnuairePSTest" />
+      <option name="METHOD_NAME" value="TNR_CT06_ModifierPSTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/g.grahovska/IdeaProjects/Viamedis/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Viamedis" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TiersCreancierTest" type="TestNG" nameIsGenerated="true">
+      <module name="Viamedis" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="viamedis" />
+      <option name="MAIN_CLASS_NAME" value="viamedis.TiersCreancierTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="viamedis" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Viamedis" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="viamedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="viamedis" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TiersCreancierTest" />
+      <item itemvalue="TestNG.All Tests" />
+      <item itemvalue="TestNG.C:/Users/g.grahovska/IdeaProjects/Viamedis/testng.xml" />
+      <item itemvalue="TestNG.viamedis" />
+      <item itemvalue="TestNG.AnnuairePSTest" />
+      <item itemvalue="TestNG.AnnuairePSTest.TNR_CT01_RechercherPSParNumeroTest" />
+      <item itemvalue="TestNG.AnnuairePSTest.TNR_CT06_ModifierPSTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.viamedis" />
+        <item itemvalue="TestNG.C:/Users/g.grahovska/IdeaProjects/Viamedis/testng.xml" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.AnnuairePSTest.TNR_CT01_RechercherPSParNumeroTest" />
+        <item itemvalue="TestNG.AnnuairePSTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,5 +269,20 @@
       <updated>1680716297626</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

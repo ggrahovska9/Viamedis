@@ -1,4 +1,4 @@
-package page;
+package page.annuairepspage.rechercherparrib;
 
 import config.BasePage;
 import org.openqa.selenium.By;

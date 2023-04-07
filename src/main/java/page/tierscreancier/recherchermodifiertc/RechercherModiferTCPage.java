@@ -1,4 +1,4 @@
-package page;
+package page.tierscreancier.recherchermodifiertc;
 
 import config.BasePage;
 import org.openqa.selenium.By;

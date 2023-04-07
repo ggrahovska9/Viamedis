@@ -1,4 +1,4 @@
-package page;
+package page.annuairepspage.recherchermodifierpspage;
 
 import config.BasePage;
 import org.openqa.selenium.By;

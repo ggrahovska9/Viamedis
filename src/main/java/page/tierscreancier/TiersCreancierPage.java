@@ -1,4 +1,4 @@
-package page;
+package page.tierscreancier;
 
 import config.BasePage;
 import enums.SousMenuBtns;

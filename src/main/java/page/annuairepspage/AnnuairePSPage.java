@@ -1,4 +1,4 @@
-package page;
+package page.annuairepspage;
 
 import config.BasePage;
 import enums.SousMenuBtns;
