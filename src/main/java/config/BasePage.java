@@ -21,20 +21,18 @@ public class BasePage {
         helper.findElement(locator).sendKeys(value);
     }
 
-    public void selectFromDropDown(By locator, String option) {
+    public void selectFromDropDownByValue(By locator, String value) {
         Select select = new Select(helper.findElement(locator));
-        select.selectByValue(option);
+        select.selectByValue(value);
     }
 
-    public void switchToWindow() {
-        String originalWindow = helper.getDriverBrowser().getWindowHandle();
+    public void selectFromDropDownByText(By locator, String text) {
+        Select select = new Select(helper.findElement(locator));
+        select.selectByVisibleText(text);
+    }
 
-        for (String windowHandle : helper.getDriverBrowser().getWindowHandles()) {
-            if (!originalWindow.contentEquals(windowHandle)) {
-                helper.getDriverBrowser().switchTo().window(windowHandle);
-                break;
-            }
-        }
+    public String getTextFromElement(By locator) {
+        return helper.findElement(locator).getText();
     }
 
     public void acceptAlert() {

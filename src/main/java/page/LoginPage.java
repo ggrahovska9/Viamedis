@@ -7,31 +7,53 @@ public class LoginPage {
 
     private final BasePage basePage = new BasePage();
 
-    private final By adresseMailField = By.xpath("//div[@id='login_assur']//input[@name='identifiant']");
-    private final By motDePasseField = By.xpath("//div[@id='login_assur']//input[@name='mdp']");
-    private final By connexionBtn = By.xpath("//div[@id='login_assur']//input[@type='submit']");
+    private final By assurAdresseMailField = By.xpath("//div[@id='login_assur']//input[@name='identifiant']");
+    private final By assurMotDePasseField = By.xpath("//div[@id='login_assur']//input[@name='mdp']");
+    private final By assurConnexionBtn = By.xpath("//div[@id='login_assur']//input[@type='submit']");
+    private final By proAdresseMailField = By.xpath("//div[@id='login_pro']//input[@name='identifiantPs']");
+    private final By proMotDePasseField = By.xpath("//div[@id='login_pro']//input[@name='mdpPs']");
+    private final By proConnectionBtn = By.xpath("//div[@id='login_pro']//input[@value='Connexion']");
     private final By accepterBtn = By.xpath("//button[@id='cc-confirm-button']");
 
     private void clickAccepterButton() {
         basePage.click(accepterBtn);
     }
 
-    private void fillAdresseMail(String email) {
-        basePage.fillField(adresseMailField, email);
+    private void fillAssurAdresseMail(String email) {
+        basePage.fillField(assurAdresseMailField, email);
     }
 
-    private void fillMotDePasse(String password) {
-        basePage.fillField(motDePasseField, password);
+    private void fillAssurMotDePasse(String password) {
+        basePage.fillField(assurMotDePasseField, password);
     }
 
-    private void clickConnexionButton() {
-        basePage.click(connexionBtn);
+    private void clickAssurConnexionButton() {
+        basePage.click(assurConnexionBtn);
     }
 
-    public void doSuccessfulLogin(String emailAddress, String password) {
+    private void fillProAdresseMail(String email) {
+        basePage.fillField(proAdresseMailField, email);
+    }
+
+    private void fillProMotDePasse(String password) {
+        basePage.fillField(proMotDePasseField, password);
+    }
+
+    private void clickProConnexionButton() {
+        basePage.click(proConnectionBtn);
+    }
+
+    public void loginAsSupervisor(String emailAddress, String password) {
         clickAccepterButton();
-        fillAdresseMail(emailAddress);
-        fillMotDePasse(password);
-        clickConnexionButton();
+        fillAssurAdresseMail(emailAddress);
+        fillAssurMotDePasse(password);
+        clickAssurConnexionButton();
+    }
+
+    public void loginAsPS(String emailAddress, String password) {
+        clickAccepterButton();
+        fillProAdresseMail(emailAddress);
+        fillProMotDePasse(password);
+        clickProConnexionButton();
     }
 }

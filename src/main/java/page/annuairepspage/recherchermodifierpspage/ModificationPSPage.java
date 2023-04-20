@@ -2,20 +2,18 @@ package page.annuairepspage.recherchermodifierpspage;
 
 import config.BasePage;
 import org.openqa.selenium.By;
-
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+import utils.Utils;
 
 public class ModificationPSPage {
 
     private final BasePage basePage = new BasePage();
 
+    private final By modificationPSPageTitle = By.xpath("//div[text()=' / Modification PS']");
     private final By adresse1Field = By.xpath("//input[@name='adr1Ps']");
     private final By telephoneField = By.xpath("//input[@name='telPs']");
     private final By villeDropDown = By.xpath("//select[@name='villePs']");
     private final By modifierLeProfilBtn = By.xpath("//input[@type='submit']");
     private final By confirmerBtn = By.xpath("//input[@value='Confirmer']");
-
     private final By dayField = By.xpath("//input[@name='dateReceptionJj']");
     private final By monthField = By.xpath("//input[@name='dateReceptionMm']");
     private final By yearField = By.xpath("//input[@name='dateReceptionAa']");
@@ -34,7 +32,7 @@ public class ModificationPSPage {
     }
 
     public void selectVilleOption(String option) {
-        basePage.selectFromDropDown(villeDropDown, option);
+        basePage.selectFromDropDownByValue(villeDropDown, option);
     }
 
     public void clickModifierLeProfilButton() {
@@ -48,12 +46,16 @@ public class ModificationPSPage {
     public void typeTodayDate() {
         basePage.acceptAlert();
 
-        basePage.fillField(dayField, LocalDate.now().format(DateTimeFormatter.ofPattern("dd")));
-        basePage.fillField(monthField, LocalDate.now().format(DateTimeFormatter.ofPattern("MM")));
-        basePage.fillField(yearField, String.valueOf(LocalDate.now().getYear()));
+        basePage.fillField(dayField, Utils.currentDay);
+        basePage.fillField(monthField, Utils.currentMonth);
+        basePage.fillField(yearField, Utils.currentYear);
     }
 
     public void verifySuccessfulUpdateMessage(String numeroPS) {
         basePage.verifyElementIsDisplayed(successfulUpdateMessage(numeroPS));
+    }
+
+    public void verifyModificationPSPage() {
+        basePage.verifyElementIsDisplayed(modificationPSPageTitle);
     }
 }

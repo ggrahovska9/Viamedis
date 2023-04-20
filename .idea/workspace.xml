@@ -4,32 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d611b46-e216-42ab-be10-16c05e67b8f7" name="Changes" comment="">
+    <list default="true" id="0d611b46-e216-42ab-be10-16c05e67b8f7" name="Changes" comment="All">
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/TypeEquipements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/VisionTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/devispage/AjouterUnDevisDentairePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/devispage/AjouterUnDevisOptiqueAudioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/devispage/RechercherUnDevisPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/devispage/RetourListeDossiersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/devispage/ajouterundevispage/BeneficiairePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/devispage/ajouterundevispage/DemandeDevisResauPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/devispage/ajouterundevispage/DossierPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/devispage/ajouterundevispage/ValorisationDevisPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/devispage/ajouterundevispage/demandedevisresaupage/ChoixDuVerrePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/gestionavecpecpage/ListeDpecPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/gestionavecpecpage/nouvelledpecpage/FacturePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/gestionavecpecpage/nouvelledpecpage/PriseEnChargePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/homepage/DevisPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/homepage/DossiersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/homepage/GestionAvecPecPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/viamedis/DevisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/config/AcceptanceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/AcceptanceHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/config/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/WebDriverProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/WebDriverProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enums/SousMenuBtns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/SousMenuBtns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enums/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/Waits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/SousMenuBtns.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/AnnuairePSPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/AnnuairePSPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/AnnuairePSPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/homepage/AnnuairePSPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/ModificationPSPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/ModificationPSPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/RechercherModifierPSPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/RechercherModifierPSPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/ResultatRecherchePSPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/ResultatRecherchePSPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/rechercherparrib/RechercheParRIBPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/rechercherparrib/RechercheParRIBPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/rechercherparrib/ResultatRechercheRIBPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/rechercherparrib/ResultatRechercheRIBPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/tierscreancier/TiersCreancierPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/tierscreancier/TiersCreancierPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/tierscreancier/recherchermodifiertc/RechercherModiferTCPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/tierscreancier/recherchermodifiertc/RechercherModiferTCPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/tierscreancier/recherchermodifiertc/ResultatTiersCreanciersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/tierscreancier/recherchermodifiertc/ResultatTiersCreanciersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/CaptureScreenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/CaptureScreenshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/recherchermodifierpspage/ResultatRecherchePSPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/rechercherparrib/RechercheParRIBPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/annuairepspage/rechercherparribpage/RechercheParRIBPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/annuairepspage/rechercherparrib/ResultatRechercheRIBPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/tierscreancier/TiersCreancierPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/homepage/TiersCreancierPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/tierscreancier/recherchermodifiertc/RechercherModiferTCPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/tierscreancierpage/recherchermodifiertcpage/RechercherModiferTCPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/tierscreancier/recherchermodifiertc/ResultatTiersCreanciersPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/viamedis/AnnuairePSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/viamedis/AnnuairePSTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/viamedis/TiersCreancierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/viamedis/TiersCreancierTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="HTML File" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -57,19 +68,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/g.grahovska/Downloads/testng-7.4.0.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.5229885",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/g.grahovska/Downloads/testng-7.4.0.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5229885&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\g.grahovska\IdeaProjects\Viamedis\driver" />
@@ -83,7 +94,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.viamedis">
+  <component name="RunManager" selected="TestNG.DevisTest.ajouterUnDevisReseauParSuperviseurTest">
     <configuration name="All Tests" type="TestNG">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -107,87 +118,89 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnnuairePSTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DevisTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Viamedis" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="viamedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="viamedis" />
-      <option name="MAIN_CLASS_NAME" value="viamedis.AnnuairePSTest" />
-      <option name="METHOD_NAME" value="TNR_CT02_RechercherPSParRIBTest" />
-      <option name="GROUP_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="viamedis.DevisTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnnuairePSTest.TNR_CT01_RechercherPSParNumeroTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DevisTest.ajouterUnDevisReseauParSuperviseurTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Viamedis" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="viamedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="viamedis" />
-      <option name="MAIN_CLASS_NAME" value="viamedis.AnnuairePSTest" />
-      <option name="METHOD_NAME" value="TNR_CT01_RechercherPSParNumeroTest" />
-      <option name="GROUP_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="viamedis.DevisTest" />
+      <option name="METHOD_NAME" value="ajouterUnDevisReseauParSuperviseurTest" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnnuairePSTest.TNR_CT06_ModifierPSTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DevisTest.ajouterUnDevisRéseauParSuperviseurTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Viamedis" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="viamedis.AnnuairePSTest" />
-      <option name="METHOD_NAME" value="TNR_CT06_ModifierPSTest" />
-      <option name="GROUP_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="viamedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="viamedis" />
+      <option name="MAIN_CLASS_NAME" value="viamedis.DevisTest" />
+      <option name="METHOD_NAME" value="ajouterUnDevisRéseauParSuperviseurTest" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/g.grahovska/IdeaProjects/Viamedis/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DevisTest.facturerPECParSuperviseurTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Viamedis" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="viamedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="viamedis" />
+      <option name="MAIN_CLASS_NAME" value="viamedis.DevisTest" />
+      <option name="METHOD_NAME" value="facturerPECParSuperviseurTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DevisTest.transformationDevisEnDPECParPSTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Viamedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="viamedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="viamedis" />
+      <option name="MAIN_CLASS_NAME" value="viamedis.DevisTest" />
+      <option name="METHOD_NAME" value="transformationDevisEnDPECParPSTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -215,47 +228,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="viamedis" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Viamedis" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="viamedis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="viamedis" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.TiersCreancierTest" />
       <item itemvalue="TestNG.All Tests" />
-      <item itemvalue="TestNG.C:/Users/g.grahovska/IdeaProjects/Viamedis/testng.xml" />
-      <item itemvalue="TestNG.viamedis" />
-      <item itemvalue="TestNG.AnnuairePSTest" />
-      <item itemvalue="TestNG.AnnuairePSTest.TNR_CT01_RechercherPSParNumeroTest" />
-      <item itemvalue="TestNG.AnnuairePSTest.TNR_CT06_ModifierPSTest" />
+      <item itemvalue="TestNG.DevisTest.ajouterUnDevisReseauParSuperviseurTest" />
+      <item itemvalue="TestNG.DevisTest.facturerPECParSuperviseurTest" />
+      <item itemvalue="TestNG.DevisTest" />
+      <item itemvalue="TestNG.DevisTest.ajouterUnDevisRéseauParSuperviseurTest" />
+      <item itemvalue="TestNG.DevisTest.transformationDevisEnDPECParPSTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.viamedis" />
-        <item itemvalue="TestNG.C:/Users/g.grahovska/IdeaProjects/Viamedis/testng.xml" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.AnnuairePSTest.TNR_CT01_RechercherPSParNumeroTest" />
-        <item itemvalue="TestNG.AnnuairePSTest" />
+        <item itemvalue="TestNG.DevisTest.ajouterUnDevisReseauParSuperviseurTest" />
+        <item itemvalue="TestNG.DevisTest.transformationDevisEnDPECParPSTest" />
+        <item itemvalue="TestNG.DevisTest.ajouterUnDevisRéseauParSuperviseurTest" />
+        <item itemvalue="TestNG.DevisTest.facturerPECParSuperviseurTest" />
+        <item itemvalue="TestNG.DevisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +256,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680716297626</updated>
     </task>
+    <task id="LOCAL-00001" summary="All">
+      <created>1680879396811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680879396811</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +276,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="All" />
+    <option name="LAST_COMMIT_MESSAGE" value="All" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/viamedis/DevisTest.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

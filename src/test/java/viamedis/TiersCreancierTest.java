@@ -5,9 +5,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import page.HomePage;
 import page.LoginPage;
-import page.tierscreancier.TiersCreancierPage;
-import page.tierscreancier.recherchermodifiertc.RechercherModiferTCPage;
-import page.tierscreancier.recherchermodifiertc.ResultatTiersCreanciersPage;
+import page.homepage.TiersCreancierPage;
+import page.tierscreancierpage.recherchermodifiertcpage.RechercherModiferTCPage;
 
 public class TiersCreancierTest extends BaseTest {
 
@@ -15,11 +14,10 @@ public class TiersCreancierTest extends BaseTest {
     private final HomePage homePage = new HomePage();
     private final TiersCreancierPage tiersCreancierPage = new TiersCreancierPage();
     private final RechercherModiferTCPage rechercherModiferTCPage = new RechercherModiferTCPage();
-    private final ResultatTiersCreanciersPage resultatTiersCreanciersPage = new ResultatTiersCreanciersPage();
 
     @BeforeMethod
     public void before() {
-        loginPage.doSuccessfulLogin("e.aleksandrova@tinqin.com", "Test123!");
+        loginPage.loginAsSupervisor("e.aleksandrova@tinqin.com", "Test123!");
         homePage.clickTiersCreancierButton();
     }
 
@@ -30,6 +28,6 @@ public class TiersCreancierTest extends BaseTest {
         rechercherModiferTCPage.fillNumeroTCFiled("74090");
         rechercherModiferTCPage.clickRechercherButton();
 
-        resultatTiersCreanciersPage.verifyResultatRechercheRIBValue("74090");
+        rechercherModiferTCPage.verifyResultatRechercheRIBValue("74090");
     }
 }
